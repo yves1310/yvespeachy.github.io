@@ -1,0 +1,192 @@
+/* Reset some default styles */
+
+body,
+h1,
+h2,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Style the header */
+
+header {
+    background-image: url("https://marketplace.canva.com/EAFC908rtPY/1/0/1600w/canva-purple-and-peach-rainbow-waves-desktop-wallpaper-afsazXR5vWo.jpg");
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+/* Create a container to cover the whole page */
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* Style the navigation on the left */
+
+nav {
+    background-image: url("https://marketplace.canva.com/EAFC908rtPY/1/0/1600w/canva-purple-and-peach-rainbow-waves-desktop-wallpaper-afsazXR5vWo.jpg");
+    width: 5%;
+    padding: 20px;
+    height: 86.8vh;
+}
+
+nav ul {
+    float: inherit;
+    display: flow-root;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li {
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+    padding: 8px 12px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    display: flexbox;
+    background-color: rgb(122, 122, 119);
+    color: rgb(5, 5, 5);
+    width: 5%;
+    text-decoration: none;
+}
+
+
+/* Style the main content in the center */
+
+main {
+    background-color: white;
+    width: 710px;
+    padding: 25px;
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.profile-data {
+    display: flex;
+    text-align: inherit;
+    margin-bottom: 20px;
+}
+
+.profile-data div {
+    flex: 10;
+    margin-right: 100px;
+}
+
+.profile-data label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.profile-bio {
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+.profile-links a {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    text-align: end;
+}
+
+.profile-links a {
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+    text-indent: 80px;
+}
+
+
+/* Style the news sidebar on the right */
+
+#news-sidebar {
+    background-image: url("https://marketplace.canva.com/EAFC908rtPY/1/0/1600w/canva-purple-and-peach-rainbow-waves-desktop-wallpaper-afsazXR5vWo.jpg");
+    width: 225px;
+    padding: 10px;
+    height: 90vh;
+    margin-left: auto;
+    font-size: 100;
+    list-style: lower-alpha;
+    /* Add this to move it to the right */
+}
+
+
+/* CSS for the logos and school names in the News Updates sidebar */
+
+.logo-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.logo-container .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-container img {
+    max-width: 100px;
+    /* Adjust the maximum width as needed */
+    height: auto;
+    margin: 5px;
+    /* Add some spacing between the logos */
+    align-items: center;
+}
+
+
+/* Style the footer */
+
+footer {
+    clear: both;
+    background-image: url("https://marketplace.canva.com/EAFC908rtPY/1/0/1600w/canva-purple-and-peach-rainbow-waves-desktop-wallpaper-afsazXR5vWo.jpg");
+    text-align: center;
+    padding: 25px 0;
+}
+
+
+/* Additional CSS for fixed video container size */
+
+
+/* CSS for the video containers */
+
+.video-container {
+    width: 230px;
+    /* Set a fixed width for the video container */
+    height: 130px;
+    /* Set a fixed height for the video container */
+    margin: auto;
+    /* Add margin to separate video containers */
+    overflow: hidden;
+    /* Hide overflow content if the video is larger */
+    display: inline-block;
+    /* Display video containers inline to place them next to each other */
+}
+
+.video-container video {
+    width: 100%;
+    /* Make the video fill its container */
+    height: 100%;
+    /* Make the video fill its container */
+}

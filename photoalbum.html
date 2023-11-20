@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #928C8C;
+        }
+
+        header {
+            background-image: url("https://marketplace.canva.com/EAFC908rtPY/1/0/1600w/canva-purple-and-peach-rainbow-waves-desktop-wallpaper-afsazXR5vWo.jpg");
+            color: black;
+            text-align: center;
+            padding: 0px 0;
+        }
+
+        .container {
+            display: inline;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 0px;
+        }
+
+        .photo {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 0px;
+        }
+
+        .photo a {
+            text-decoration: none;
+            color: #333;
+            transition: transform 0.2s ease-in-out;
+            display: block;
+            border: 5px solid #fff;
+            box-shadow: 0 0 0px rgba(0, 0, 0, 0.3);
+        }
+
+        .photo a:hover {
+            transform: scale(1.1);
+        }
+
+        .photo img {
+            max-width: 50%;
+            height: 100%;
+        }
+
+        footer {
+            background-image: url("https://marketplace.canva.com/EAFC908rtPY/1/0/1600w/canva-purple-and-peach-rainbow-waves-desktop-wallpaper-afsazXR5vWo.jpg");
+            color: black;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h3>Album</h3>
+    </header>
+    
+    <div class="container">
+        <main>
+            <section id="center-content">
+                <h2>Photo Album</h2>
+                <div class="photo">
+                    <a href="5.jpg" data-lightbox="gallery" data-title="Image 1"><img src="5.jpg" alt="Image 1"></a>
+                    <a href="6.jpg" data-lightbox="gallery" data-title="Image 2"><img src="6.jpg" alt="Image 2"></a>
+                    <a href="7.jpg" data-lightbox="gallery" data-title="Image 3"><img src="7.jpg" alt="Image 3"></a>
+                    <a href="8.jpg" data-lightbox="gallery" data-title="Image 4"><img src="8.jpg" alt="Image 4"></a>
+                    <a href="9.jpg" data-lightbox="gallery" data-title="Image 5"><img src="9.jpg" alt="Image 5"></a>
+                    <!-- Add more images with the Lightbox markup -->
+                </div>
+                <!-- Add more images as needed -->
+            </section>
+        </main>
+    </div>
+    
+    <footer>
+        <p>&copy; All Rights Reserved 2023</p>
+    </footer>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+</body>
+</html>
